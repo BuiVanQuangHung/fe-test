@@ -4,7 +4,6 @@ import CustomDialog from "@/components/Dialog";
 import Paginate from "@/components/paginate";
 import CustomTable from "@/components/Table";
 import React, { useEffect, useMemo, useState } from "react";
-import ReactPaginate from "react-paginate";
 
 export interface Post {
   userId: number;
